@@ -16,7 +16,7 @@ namespace PROG6221___CyberSecurity_Console_App___ST10439898
             static void Main(string[] args)
             {
 
-                //play aduio greetung
+                ////play aduio greetung
                 PlayAudioGreeting("ByteBuddyGreeting.wav"); //using wav file
 
                 ASCII();
