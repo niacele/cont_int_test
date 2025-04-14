@@ -190,7 +190,7 @@ namespace PROG6221___CyberSecurity_Console_App___ST10439898
 
                 else if (goal == "flexibility")
                 {
-                    Console.WriteLine("Reecommended Flexibility Routine: \n-10 min stretch \n-Yog session \n-Foam rolling");
+                    Console.WriteLine("Reecommended Flexibility Routine: \n-10 min stretch \n-Yog session \n-Foam rolling ");
                 }
                 else
                 {
