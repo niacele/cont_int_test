@@ -21,7 +21,7 @@ namespace PROG6221___CyberSecurity_Console_App___ST10439898
 
                 ASCII();
 
-                Console.Title = "CyberSecurity Awareness Chatbot";
+                Console.Title = "ByteBuddy.io";
                 Console.ForegroundColor = ConsoleColor.Red;
                 
                 Console.WriteLine("What's your name");
@@ -171,34 +171,6 @@ namespace PROG6221___CyberSecurity_Console_App___ST10439898
             }
 
 
-            public static void SuggestWorkout()
-            {
-                Console.ForegroundColor = ConsoleColor.Blue;
-                Console.WriteLine("ByteBuddy: What is your fitness goal [stength/cardio/flexibilty]");
-                Console.ForegroundColor = ConsoleColor.White;
-                string goal = Console.ReadLine();
-
-                Console.ForegroundColor = ConsoleColor.Green;
-                if (goal == "strength")
-                {
-                    Console.WriteLine("Recommended Strength Workout: \n-Squats: 4 sets of 10 reps \n-Bench Press: 4 sets of 8 reps \n-Deadlifs: 4 sets of 6 reps");
-                }
-                else if (goal == "cardio")
-                {
-                    Console.WriteLine("recommend Cardio Workout: \n-30 min jogging \n-10 min jump rope \n-20 min cycling");
-                }
-
-                else if (goal == "flexibility")
-                {
-                    Console.WriteLine("Reecommended Flexibility Routine: \n-10 min stretch \n-Yog session \n-Foam rolling ");
-                }
-                else
-                {
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("ByteBuddy: That's not a recognized goal. Try 'strength', 'cardio', or 'flexibility'");
-                }
-
-            }
 
             static void ASCII()
             {
